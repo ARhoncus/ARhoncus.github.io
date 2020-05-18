@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: JosefinSans;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+@font-face {
+    font-family: Jost;
+    src: url(../fonts/Jost-VariableFont_ital\,wght.ttf);
+}
+p {
+    font-family: Jost;
+    font-size: 20px;
+}
+body {
+    color: orange;
+}
+
+main {
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div {
+    width: calc(50% - 40px);
+    max-width: 100%;
+    height: 500px;
+    max-height: 100%;
+    transition: all 1s ease;
+    background-color: palegoldenrod;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.item1 {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+}
+.item2 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+}
+.item3 {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+}
+.item4 {
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+}
+.item5 {
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+}
+.item6 {
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+}
+.item7 {
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+}
+.item8 {
+    background-image: url(../img/8.jpg);
+    background-size: cover;
+}
+.item9 {
+    background-image: url(../img/9.jpg);
+    background-size: cover;
+}
+.item10 {
+    background-image: url(../img/10.jpg);
+    background-size: cover;
+}
+.item11 {
+    background-image: url(../img/11.jpg);
+    background-size: cover;
+}
+.item12 {
+    background-image: url(../img/12.jpg);
+    background-size: cover;
+}
+.item:hover{
+    transform: scale(1.1);
+}
